@@ -1,0 +1,49 @@
+cadena_1 = "versátil"
+cadena_2 = "Python"
+cadena_3 = "es un lenguaje"
+cadena_4 = "de programación"
+resultado = print(cadena_2 + " " + cadena_3 + " " + cadena_4 + " " + cadena_1)
+
+# Ingreso de datos
+número_primero = int(input("Ingresa el primer número: ")) # boton a completar
+número_segundo = int(input("Ingresa el segundo número: ")) # 2do boton a completar
+
+# Operaciones con los datos
+resultado = número_primero - número_segundo
+
+# Salida de datos
+print("Mi cálculo es", resultado )
+
+######################## Segundo micro desafío
+
+# Declaración de datos conocidos
+PARTIDOS_JUGADOS = 20
+PUNTOS_PARTIDO_GANADO = 3
+PUNTOS_PARTIDO_EMPATADO = 1
+PUNTOS_PARTIDO_PERDIDO = 0
+
+# Entrada de datos
+partidos_ganados = int(input("¿Cuántos partidos ganó el equipo? "))
+partidos_empatados = int(input("¿Cuántos partidos empató el equipo? "))
+partidos_perdidos = int(input("¿Cuántos partidos perdió el equipo? "))
+
+# Operaciones
+puntos_totales = (
+    partidos_ganados * PUNTOS_PARTIDO_GANADO
+    + partidos_empatados * PUNTOS_PARTIDO_EMPATADO
+    + partidos_perdidos * PUNTOS_PARTIDO_PERDIDO
+)
+promedio = puntos_totales / PARTIDOS_JUGADOS
+
+# Salida de datos
+print(f"El promedio final de puntos es {promedio}")
+
+############################################3
+
+CADENA = "TEXTO"
+
+print(CADENA[0])
+print(CADENA[1])
+print(CADENA[2])
+print(CADENA[3])
+print(CADENA[4])
