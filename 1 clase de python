@@ -47,3 +47,32 @@ print(CADENA[1])
 print(CADENA[2])
 print(CADENA[3])
 print(CADENA[4])
+
+###########################################
+
+CADENA = "TEXTO esto es una prueba"
+# [ inicio : paro : paso]
+print(CADENA[::-1])
+
+##############################################
+
+lista = [2, 4, 5, 6]
+
+print(lista[0])
+print(lista[1])
+print(lista[2])
+print(lista[3])
+
+#############################################
+
+lista = [20, 41, 5, 6, "cadenas", [2, 3]]
+lista.append(10)
+print(len(lista))
+print(lista)
+lista.pop()
+print(lista)
+lista.remove(20)
+print(lista)
+print(lista[4])
+mi_tres = lista[4][1]
+print(mi_tres)
