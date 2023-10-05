@@ -49,11 +49,13 @@ print(CADENA[3])
 print(CADENA[4])
 
 ###########################################
-
+# cadena de texto
 CADENA = "TEXTO esto es una prueba"
 # [ inicio : paro : paso]
 print(CADENA[::-1])
 
+# texto entre comillas 
+print('esto es un "texto"')
 ##############################################
 
 lista = [2, 4, 5, 6]
@@ -76,3 +78,31 @@ print(lista)
 print(lista[4])
 mi_tres = lista[4][1]
 print(mi_tres)
+
+###########################################################################
+# Impresion de forma cruda o raw
+# quiero que python me ignore los caracteres especiales
+# pe establecer el directorio de trabajo
+print(r"C/nombre/directorio")
+#como escribir una cadena de texto de varias lineas: utilizando """ (3 comillas, donde cada comilla representa un num de renglon)
+print("""esto
+es
+un texto""")
+
+# Listas sirve para agrupar distintos tipos de datos
+mi_lista = [1,2,3,4] # homgenea numerica
+mi_lista = ["hola","que tal"] #homogenea string
+mi_lista = [1,2,-5,"hola"] # heterogenea
+# substring un elemento de la lista
+mi_lista[0] # cero es el primer elemento de la lista
+mi_lista[-1] # ultimo elemento de la lista
+# slicing (quedarme con una parte de los datos)
+mi_lista[0:2]
+mi_lista[-2:]
+#Agregar datos a una lista
+mi_lista = mi_lista + [3,6,9,0]
+# borrar elementos de la lista
+mi_lista[:3] = [] # tomame los primeros tres elementos y reemplazalos por una lista vacia, de esta manera entiende que vamos a borrar esos elementos.
+mi_lista.clear() # sirve para borrar los elementos de una lista
+
+## me quede en minuto 8 de listas
