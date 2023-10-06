@@ -105,4 +105,17 @@ mi_lista = mi_lista + [3,6,9,0]
 mi_lista[:3] = [] # tomame los primeros tres elementos y reemplazalos por una lista vacia, de esta manera entiende que vamos a borrar esos elementos.
 mi_lista.clear() # sirve para borrar los elementos de una lista
 
-## me quede en minuto 8 de listas
+## Funciones más importantes para las listas i
+append = mi_lista.append(5)
+mi_lista.append(2*3) #permite agregar elemntos al final de la lista 
+#len longitud del vector
+len(mi_lista)    
+# pop extrae el último elemento de la lista
+nuevo = mi_lista.pop() # tambien le podemos especificar el valor que queremos extraer
+nuevo = mi_lista.pop(2) 
+#count permite saber cuantas veces se repite determinado item en la lista
+mi.lista.count(2)
+# index me marca la primer ocurrencia de un valor en la lista (el lugar que ocupa el elemento la primera vez que aparece)
+mi_lista = [1,2,3,2,2]
+mi_lista.index(2) # me va a marcar el 1 pq es la pimera posición que ocupa. 
+mi_lista.index(5) # me va a tirar error pq el elemento no se encuentra en la lista
