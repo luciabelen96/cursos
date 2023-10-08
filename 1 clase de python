@@ -119,3 +119,11 @@ mi.lista.count(2)
 mi_lista = [1,2,3,2,2]
 mi_lista.index(2) # me va a marcar el 1 pq es la pimera posición que ocupa. 
 mi_lista.index(5) # me va a tirar error pq el elemento no se encuentra en la lista
+
+# tuplas: es una lista que no puede modificarse. Se arman igual que una lista pero con ()
+mi_tupla = (2) #interger
+mi_tupla
+mi_var = "hola"
+mi_tupla_df = (2,mi_var)
+mi_tupla_df
+# puedo usar todas las funciones de list menos append (pq no es modificable)
